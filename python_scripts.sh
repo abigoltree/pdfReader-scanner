@@ -1,5 +1,5 @@
 finder() {
-    ls -R ./programming/*.py
+    ls -R ./*.py
 }
 val=$(finder)
 echo $val
